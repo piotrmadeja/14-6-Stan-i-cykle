@@ -1,0 +1,37 @@
+* {
+	text-align: center;
+}
+
+body {
+  background: url('Counter.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+	margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px gray;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.increment {
+  margin-right: 15px;
+}
+
+.counters {
+  color: white;
+  max-width: 960px;
+  position: relative;
+  top: 0;
+  left: 24.8%;
+  background: rgb(0, 0, 0.6, 0.4);
+}
